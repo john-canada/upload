@@ -17,7 +17,7 @@
 </form>
 
 <?php
-   
+   // display download files and make it available for download
    $files=scandir('uploads'); 
     foreach($files as $file){ ?>
     <p>
