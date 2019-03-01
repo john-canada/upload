@@ -27,5 +27,12 @@
 
 ?>
 
+<form method="post" action="pdf.php" enctype="multipart/form-data" >
+<input type="text" name="name">
+<input type="text" name="position">
+<input type="submit" value="print pdf">
+
+</form>
+
 </body>
 </html>
